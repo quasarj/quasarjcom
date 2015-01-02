@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+
+<ol id="post-list">
+{% for article in articles_page.object_list %}
+    <article class="hentry">
+        <section class="post-header">
+            <h2 class="entry-title">
+                <a href="{{ SITEURL }}/{{ article.url }}" 
+                   rel="bookmark" 
+                   title="Permalink to {{ article.title|striptags }}">
+                    {{ article.title }}
+                </a>
+            </h2>
+        </section>
+        <section class="post-info">
+            <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+            <address class="vcard author">By
+            {% for author in article.authors %}
+                <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
+            {% endfor %}
+            </address>
+        </section><!-- /.post-info -->
+        <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+    </article>
+{% endfor %}
+</ol><!-- /#posts-list -->
+{% include 'pagination.html' %}
+</section><!-- /#content -->
+{% endblock content %}
