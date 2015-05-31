@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Quasarj.com</title><link href="http://quasarj.com/" rel="alternate"></link><link href="http://quasarj.com/feeds/reviews.atom.xml" rel="self"></link><id>http://quasarj.com/</id><updated>2015-05-31T14:28:20-05:00</updated><entry><title>My First Review</title><link href="http://quasarj.com/my-first-review.html" rel="alternate"></link><updated>2015-05-31T14:28:20-05:00</updated><author><name>Quasar Jarosz</name></author><id>tag:quasarj.com,2015-05-31:my-first-review.html</id><summary type="html">&lt;h1&gt;My First Review&lt;/h1&gt;
+&lt;p&gt;Following is a review of my favorite mechancal keyboard.&lt;/p&gt;
+&lt;h2&gt;Switches&lt;/h2&gt;
+&lt;p&gt;They are blue, of course!&lt;/p&gt;
+&lt;h3&gt;Options&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Blue&lt;/li&gt;
+&lt;li&gt;Brown&lt;/li&gt;
+&lt;li&gt;Red&lt;/li&gt;
+&lt;li&gt;Black&lt;/li&gt;
+&lt;li&gt;Green&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Brand&lt;/h2&gt;
+&lt;p&gt;I don't know.&lt;/p&gt;</summary></entry></feed>

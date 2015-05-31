@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Quasarj.com - Quasar Jarosz</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="http://quasarj.com/theme/css/main.css" type="text/css" />
+   
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="http://quasarj.com/css/ie.css"/>
+                <script src="http://quasarj.com/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="http://quasarj.com/css/ie6.css"/><![endif]-->
+
+</head>
+
+<body id="index" class="home">
+<a href="http://github.com/quasarj/quasarjcom">
+<img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" />
+</a>
+        <header id="banner" class="body">
+                <h1><a href="http://quasarj.com">Quasarj.com </a></h1>
+                <nav><ul>
+                    <li><a href="http://quasarj.com/pages/about-me.html">About Me</a></li>
+                    <li ><a href="http://quasarj.com/category/general.html">General</a></li>
+                    <li ><a href="http://quasarj.com/category/reviews.html">Reviews</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+        
+        
+
+            <aside id="featured" class="body">
+                <article>
+                    <h1 class="entry-title"><a href="http://quasarj.com/pelican-features.html">Pelican features</a></h1> 
+<footer class="post-info">
+        <abbr class="published" title="2015-05-31T15:52:17-05:00">
+                Sun 31 May 2015
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://quasarj.com/author/quasar-jarosz.html">Quasar Jarosz</a>
+        </address>
+<p>In <a href="http://quasarj.com/category/general.html">General</a>. </p>
+</footer><!-- /.post-info --><p>This post is meant to test various features of Pelican, including code blocks and other types of formatting.</p>
+<p>Testing a code block:</p>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">csv</span>
+
+<span class="k">print</span> <span class="s">&quot;some stuff&quot;</span>
+
+<span class="k">class</span> <span class="nc">Dict</span><span class="p">(</span><span class="nb">dict</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A dict where keys can be accessed as attributes&quot;&quot;&quot;</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">Dict</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span> <span class="c"># or super().__init__ in py3</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">__dict__</span> <span class="o">=</span> <span class="bp">self</span>
+
+
+
+<span class="nb">dict</span> <span class="o">=</span> <span class="n">Dict</span>
+
+<span class="n">d</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">a</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span><span class="n">b</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+
+<span class="n">d</span><span class="o">.</span><span class="n">c</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="n">d</span><span class="o">.</span><span class="n">d</span> <span class="o">=</span> <span class="mi">5</span>
+<span class="n">d</span><span class="o">.</span><span class="n">e</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+<span class="n">d</span><span class="o">.</span><span class="n">e</span><span class="o">.</span><span class="n">a</span> <span class="o">=</span> <span class="mi">9</span>
+
+
+
+<span class="k">print</span> <span class="n">d</span>
+</pre></div>
+
+
+<h2>Setup</h2>
+<p>And how to set it up:</p>
+<div class="highlight"><pre>./import.sh
+rm bob.txt
+cp a b/
+</pre></div>
+
+
+<h3>Other</h3>
+<p>Don't forget the other things!</p>
+<ul>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing</li>
+</ul>
+<p>What about ordered lists?</p>
+<ol>
+<li>First thing</li>
+<li>Second thing</li>
+<li>Third thing</li>
+<li>Fourth thing.</li>
+</ol>                </article>
+            </aside><!-- /#featured -->
+                <section id="content" class="body">
+                    <h1>Other articles</h1>
+                    <hr />
+                    <ol id="posts-list" class="hfeed">
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="http://quasarj.com/my-first-review.html" rel="bookmark" title="Permalink to My First Review">My First Review</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-05-31T14:28:20.560260-05:00">
+                Sun 31 May 2015
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://quasarj.com/author/quasar-jarosz.html">Quasar Jarosz</a>
+        </address>
+<p>In <a href="http://quasarj.com/category/reviews.html">Reviews</a>. </p>
+</footer><!-- /.post-info -->                <h1>My First Review</h1>
+<p>Following is a review of my favorite mechancal keyboard.</p>
+<h2>Switches</h2>
+<p>They are blue, of course!</p>
+<h3>Options</h3>
+<ul>
+<li>Blue</li>
+<li>Brown</li>
+<li>Red</li>
+<li>Black</li>
+<li>Green</li>
+</ul>
+<h2>Brand</h2>
+<p>I don't know.</p>
+                <a class="readmore" href="http://quasarj.com/my-first-review.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="http://quasarj.com/another-post.html" rel="bookmark" title="Permalink to Another Post">Another Post</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-05-31T00:00:00-05:00">
+                Sun 31 May 2015
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://quasarj.com/author/quasar-jarosz.html">Quasar Jarosz</a>
+        </address>
+<p>In <a href="http://quasarj.com/category/general.html">General</a>. </p>
+</footer><!-- /.post-info -->                
+    <p>
+        This is another post to test with Pelican!
+    </p>
+
+                <a class="readmore" href="http://quasarj.com/another-post.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="http://quasarj.com/even-more-testing.html" rel="bookmark" title="Permalink to Even More Testing">Even More Testing</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-05-30T00:00:00-05:00">
+                Sat 30 May 2015
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://quasarj.com/author/quasar-jarosz.html">Quasar Jarosz</a>
+        </address>
+<p>In <a href="http://quasarj.com/category/general.html">General</a>. </p>
+</footer><!-- /.post-info -->                <p>Doing some more testing. I'm not sure where I had this repo original, so I'm having to check it out elsehwere. This seems to have caused the dates on the other posts get reset to today, so I need to figure out how to specify the date in ...</p>
+                <a class="readmore" href="http://quasarj.com/even-more-testing.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="http://quasarj.com/more-testing.html" rel="bookmark" title="Permalink to More Testing">More Testing</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2015-01-01T00:00:00-06:00">
+                Thu 01 January 2015
+        </abbr>
+
+        <address class="vcard author">
+                By <a class="url fn" href="http://quasarj.com/author/quasar-jarosz.html">Quasar Jarosz</a>
+        </address>
+<p>In <a href="http://quasarj.com/category/general.html">General</a>. </p>
+</footer><!-- /.post-info -->                <p>Just doing some more testing.</p>
+                <a class="readmore" href="http://quasarj.com/more-testing.html">read more</a>
+                </div><!-- /.entry-content -->
+            </article></li>
+<p class="paginator">
+    Page 1 / 1
+</p>
+            </ol><!-- /#posts-list -->
+            </section><!-- /#content -->
+        <section id="extras" class="body">
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+
+        </footer><!-- /#contentinfo -->
+
+</body>
+</html>
