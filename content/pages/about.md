@@ -1,43 +1,9 @@
 Title: About Me
 
-There really isn't much to know about me. At least, not much important.
+I am a technology enthusiast with experience in many areas of software and web development, as well as server administration. I live in Little Rock, Arkansas, fairly deep into the South, which means a constant struggle to keep up with current trends.
 
-Testing a code block:
+I am always looking for interesting things to work on.
 
-    :::python
-    import csv
-    
-    print "some stuff"
-
-    class Dict(dict):
-        """A dict where keys can be accessed as attributes"""
-        def __init__(self, *args, **kwargs):
-            super(Dict, self).__init__(*args, **kwargs) # or super().__init__ in py3
-            self.__dict__ = self
-
-
-
-    dict = Dict
-
-    d = dict(a=4,b=3)
-
-    d.c = 8
-    d.d = 5
-    d.e = dict()
-    d.e.a = 9
-
-
-
-    print d
-
-
-
-
-## Setup
-And how to set it up:
-
-    :::bash
-    ./import.sh
-    rm bob.txt
-    cp a b/
+* [Github](http://github.com/quasarj)
+* [Resume](http://registry.jsonresume.org/quasarj)
 
