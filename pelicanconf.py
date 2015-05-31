@@ -16,11 +16,12 @@ TIMEZONE = 'America/Chicago'
 DEFAULT_LANG = 'en'
 DEFAULT_DATE = 'fs'
 
-# THEME = 'simple' # or notmyidea
-THEME = 'themes/quasar'
+# THEME = 'simple'
+THEME = 'notmyidea'
+# THEME = 'themes/quasar'
 # CSS_FILE = 'wide.css'
 
-GITHUB_URL = 'http://github.com/quasarj/blarg'
+GITHUB_URL = 'http://github.com/quasarj/quasarjcom'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
