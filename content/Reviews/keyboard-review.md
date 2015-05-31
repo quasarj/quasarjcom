@@ -1,19 +1,17 @@
 Title: My First Review
+Date: 2015-01-01
 
-# My First Review
-Following is a review of my favorite mechancal keyboard.
+Following is a review of my favorite mechancal keyboard. (Actually, this is just a test post. You should probably ignore it.)
 
-## Switches
+# Switches
 They are blue, of course!
 
-### Options
+## Options
 * Blue
 * Brown
 * Red
 * Black
 * Green
 
-## Brand
+# Brand
 I don't know.
-
-
